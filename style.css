@@ -49,6 +49,34 @@ body {
   display: none;
 }
 /* end */
+/* begin: logo */
+.logo {
+  background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  opacity: 0.7;
+  position: relative;
+}
+.logo-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logo-text {
+  color: #fff;
+  background-color: #000;
+  font-size: 2.4rem;
+  padding: 1.2rem 2.4rem;
+  letter-spacing: 0.8rem;
+  white-space: nowrap;
+}
+.logo-web{
+    display: none;
+}
+/* end */
 
 @media screen and (min-width: 601px) {
   /* begin: header */
@@ -84,5 +112,10 @@ body {
   .header-icon {
     display: none;
   }
+  /* end */
+  /* begin: logo */
+  .logo-web{
+    display: inline-block;
+}
   /* end */
 }
