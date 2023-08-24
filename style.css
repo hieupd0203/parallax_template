@@ -107,7 +107,7 @@ body {
   margin: 1.5rem 0;
 }
 .info-text i {
-  margin-right: 1.5rem 0;
+  margin-right: 1.5rem;
 }
 .info-img {
   width: 100%;
@@ -148,6 +148,21 @@ body {
 }
 .photoshop {
   width: 75%;
+}
+/* end */
+/* begin: review */
+.review-group{
+  background-color: #616161;
+  color: #fff;
+  text-align: center;
+  padding: 1.6rem 0;
+}
+.review-item{
+  margin: 1.5rem 0;
+}
+.review-number{
+  display: block;
+  font-size: 2.4rem;
 }
 /* end */
 
@@ -203,6 +218,17 @@ body {
     display: block;
     width: 50%;
     padding: 1.2rem 2.4rem;
+  }
+  .about-content p{
+    margin: 1.5rem 0;
+  }
+  /* end */
+  /* begin: review */
+  .review-group{
+    display: flex;
+  }
+  .review-item{
+    flex-basis: 25%;
   }
   /* end */
 }
