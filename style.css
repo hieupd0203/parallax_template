@@ -55,6 +55,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height: 100vh;
   opacity: 0.7;
   position: relative;
@@ -151,18 +152,42 @@ body {
 }
 /* end */
 /* begin: review */
-.review-group{
+.review-group {
   background-color: #616161;
   color: #fff;
   text-align: center;
   padding: 1.6rem 0;
 }
-.review-item{
+.review-item {
   margin: 1.5rem 0;
 }
-.review-number{
+.review-number {
   display: block;
   font-size: 2.4rem;
+}
+/* end */
+/* begin: Portfolio */
+.portfolio-container {
+  background-image: url(https://www.w3schools.com/w3images/parallax2.jpg);
+  min-height: 40rem;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  position: relative;
+}
+.portfolio-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.portfolio-title{
+  font-size: 3.6rem;
+  color: #fff;
+  letter-spacing: 0.8rem;
+  font-weight: 500;
 }
 /* end */
 
@@ -210,7 +235,7 @@ body {
   .about-group {
     display: flex;
   }
-  .about-info{
+  .about-info {
     width: 50%;
   }
 
@@ -219,15 +244,15 @@ body {
     width: 50%;
     padding: 1.2rem 2.4rem;
   }
-  .about-content p{
+  .about-content p {
     margin: 1.5rem 0;
   }
   /* end */
   /* begin: review */
-  .review-group{
+  .review-group {
     display: flex;
   }
-  .review-item{
+  .review-item {
     flex-basis: 25%;
   }
   /* end */
