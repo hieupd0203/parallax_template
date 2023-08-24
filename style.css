@@ -7,7 +7,7 @@ html {
   font-size: 10px;
 }
 body {
-  /* color: #777; */
+  color: #777;
   font-size: 1.6rem;
   font-family: "Lato", sans-serif;
   line-height: 1.8;
@@ -73,8 +73,81 @@ body {
   letter-spacing: 0.8rem;
   white-space: nowrap;
 }
-.logo-web{
-    display: none;
+.logo-web {
+  display: none;
+}
+/* end */
+/* begin: about_section */
+.about-section {
+  max-width: 98rem;
+  padding: 6.4rem 1.6rem;
+  margin: 0 auto;
+}
+.about-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  text-align: center;
+}
+.about-text {
+  font-style: italic;
+  margin: 1.5rem 0;
+  text-align: center;
+}
+.about-desc {
+  margin: 1.5rem 0;
+}
+
+.about-info {
+  padding: 1.2rem 2.4rem;
+}
+.info-text {
+  font-weight: 700;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+.info-text i {
+  margin-right: 1.5rem 0;
+}
+.info-img {
+  width: 100%;
+  opacity: 0.6;
+}
+.about-content {
+  display: none;
+}
+.about-story {
+}
+.story-text {
+  margin: 3.5rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.progress-container {
+  margin-top: 1.5rem;
+}
+.label {
+  letter-spacing: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+.progress-bar {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-percent {
+  background-color: #616161;
+  color: #fff;
+  text-align: center;
+  padding: 0.4rem 0.8rem;
+}
+.photography {
+  width: 90%;
+}
+.web-design {
+  width: 85%;
+}
+.photoshop {
+  width: 75%;
 }
 /* end */
 
@@ -114,8 +187,22 @@ body {
   }
   /* end */
   /* begin: logo */
-  .logo-web{
+  .logo-web {
     display: inline-block;
-}
+  }
+  /* end */
+  /* begin: about_section */
+  .about-group {
+    display: flex;
+  }
+  .about-info{
+    width: 50%;
+  }
+
+  .about-content {
+    display: block;
+    width: 50%;
+    padding: 1.2rem 2.4rem;
+  }
   /* end */
 }
