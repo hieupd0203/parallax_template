@@ -80,20 +80,23 @@ body {
 /* end */
 /* begin: about_section */
 .about-section,
-.work-section {
+.work-section,
+.contact-section {
   max-width: 98rem;
   padding: 6.4rem 1.6rem;
   margin: 0 auto;
 }
 .about-title,
-.work-title {
+.work-title,
+.contact-text {
   font-size: 2.4rem;
   font-weight: 500;
   margin: 1rem 0;
   text-align: center;
 }
 .about-text,
-.work-desc {
+.work-desc,
+.contact-desc {
   font-style: italic;
   margin: 1.5rem 0;
   text-align: center;
@@ -219,9 +222,53 @@ body {
 
 /* end */
 /* begin: contact-image */
-.contact-container{
-  background-image: url(	https://www.w3schools.com/w3images/parallax3.jpg);
+.contact-container {
+  background-image: url(https://www.w3schools.com/w3images/parallax3.jpg);
 }
+/* end */
+/* begin: contact-section */
+.contact-map {
+  /* padding: 0 1.6rem; */
+}
+.contact-img {
+  width: 100%;
+}
+.contact-group {
+  margin: 1.5rem 0;
+}
+.contact-info {
+  font-size: 1.8rem;
+}
+.contact-info i{
+  width: 4rem;
+  
+}
+.contact-group p{
+  margin: 1.5rem 0;
+}
+.input-group{
+ margin-bottom: 1rem;
+}
+.input-item{
+  width: 100%;
+  padding: 1rem;
+  border: 0.1rem solid #ccc;
+}
+.contact-btn{
+  padding: 1.2rem 1.6rem;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  font-size: 1.5rem;
+  float: right;
+  margin: 1.6rem 0;
+  cursor: pointer;
+}
+.contact-btn:hover{
+  background-color: #ccc;
+  color: #000;
+}
+
 /* end */
 
 @media screen and (min-width: 601px) {
@@ -297,6 +344,22 @@ body {
   }
   .work-item {
     width: calc((100% - 4.5rem) / 4);
+  }
+  /* end */
+  /* begin: contact-section */
+  .contact-wrapper{
+    display: flex;
+    gap: 3rem;
+  }
+  .contact-map{
+   width: calc((100% - 3rem) / 3);
+  }
+  .contact-group{
+    flex-grow: 1;
+  }
+  .input-group{
+    display: flex;
+    gap: 1.5rem;
   }
   /* end */
 }
