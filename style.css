@@ -270,6 +270,47 @@ body {
 }
 
 /* end */
+/* begin: footer */
+footer{
+  padding: 6.4rem 0;
+  background-color: #666666 ;
+  text-align: center;
+  color: #fff;
+}
+footer:hover{
+  background-color: #000;
+}
+
+.footer-link{
+  padding: 0.8rem 1.6rem;
+  background-color: #f1f1f1;
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+.footer-link:hover{
+  background-color: #ccc;
+}
+.footer-link i{
+  margin-right: 2rem;
+  
+}
+.footer-group{
+  margin: 1.5rem;
+  font-size: 2.4rem;
+}
+.footer-group i:hover{
+  color: #666666;
+  cursor: pointer;
+}
+.footer-text a{
+  color: #fff;
+}
+.footer-text a:hover{
+  color: #4CAF50;
+}
+/* end */
 
 @media screen and (min-width: 601px) {
   /* begin: header */
